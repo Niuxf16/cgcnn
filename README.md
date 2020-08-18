@@ -137,7 +137,7 @@ python main.py --train-size 6 --val-size 2 --test-size 2 data/sample-regression
 ```
 or alternatively
 ```bash
-python main.py --train-ratio 0.6 --val-ratio 0.2 --test-ratio 0.2 data/sample-regression
+python main.py --train-ratio 0.6 --val-ratio 0.2 --test-ratio 0.2 root_dir
 ```
 
 You can also train a classification model with label `--task classification`. For instance, you can use `data/sample-classification` by:
